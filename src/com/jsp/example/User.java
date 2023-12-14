@@ -6,8 +6,14 @@ public class User {
 	private String userName;
 	private String userEmail;
 	private String userPassword;
-
-
+	private long phoneNo;
+	
+	public long getPhoneNo() {
+		return phoneNo;
+	}
+	public void setPhoneNo(long phoneNo) {
+		this.phoneNo = phoneNo;
+	}
 	public String getUserEmail() {
 		return userEmail;
 	}
